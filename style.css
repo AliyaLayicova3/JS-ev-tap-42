@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 98vw;
+    height: 10vh;
+    background-color: lightgreen;
+    h2{
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+main{
+    width: 98vw;
+    height: 70vh;
+    .main{
+        text-align: center;
+        color: lightgreen;
+    }
+    .qarabağ{
+
+        float: left;
+        margin-left: 200px;
+        color: lightgreen;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+    .tarix{
+        float: right;
+        list-style-type: none;
+        margin-right: 200px;
+        color: lightgreen;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+    }
+}
+footer{
+    width: 98vw;
+    height: 10vh;
+    margin-top: 20px;
+    .footer{
+        text-align: center;
+        font-family: "Nunito", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 600;
+        font-style: normal;
+        color: lightgreen;
+    }
+}
